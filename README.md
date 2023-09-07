@@ -1,0 +1,77 @@
+# Indexhtml-JayTech
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Rejoice Asubiojo"
+    <title>Jaytech Web Design | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+     <div class="container">
+        <div id="branding">
+         <h1>Jaytech Web Design</h1>  
+        </div>
+        <nav>
+          <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>  
+          </ul>  
+        </nav>
+     </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <h1>Affordable professional Web Design</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a neque sed est molestie porttitor. Nam placerat lacinia ante, sed commodo ante pellentesque a.</p>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subcribe To Our Newsletter</h1>
+            <fore>
+                <input type="email" placeholder="Enter Email">
+                <botton type="submit" class="botton_1">Suscribe</botton>
+            </fore>
+            
+        </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+            <h3><HTML5Markups</h3>
+            <p>Donec urna nisi, lacinia in efficitur a, auctor eu leo. Pellentesque scelerisque id dolor sit amet ornare. Aliquam risus ante</p>
+        </div>
+        <div class="box">
+            <h3>Graphic Design</h3>
+            <p>Mauris interdum vitae turpis at ullamcorper. Donec sed porta metus, sed vulputate lorem. Maecenas quis lectus blandit,</p>
+        </div>
+      </div>
+    </section>
+</body>
+<section id="images">
+    <div class="container">
+        <h2>Our Technologies</h2>
+        <div class="image-container">
+            <img src="html.jpg" alt="HTML">
+            <img src="css.jpg" alt="CSS">
+            <img src="javascript.jpg" alt="JavaScript">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023 JayTech Web Design. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
+</html>
