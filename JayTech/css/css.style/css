@@ -1,0 +1,13 @@
+<body{
+font-family; Ariel, Helvertica, san-serif;
+font-size: 15px;
+line-height: 1:5
+
+}
+header 1i{
+    float;left;
+    display; inline;
+    padding @20px , @20px
+}
+
+header 
