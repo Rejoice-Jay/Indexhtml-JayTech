@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Rejoice Asubiojo">
+    <title>Jaytech Web Design | Welcome</title>
+    <link rel="stylesheet" href="./Jaytech Web Design _ Welcome_files/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight"><jaytech span="">Web Design</jaytech></span></h1>  
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+                    <li><a href="http://127.0.0.1:5500/services.html">Services</a></li>  
+                 </ul>  
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Affordable professional Web Design</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a neque sed est molestie porttitor. Nam placerat lacinia ante, sed commodo ante pellentesque a.</p>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subcribe To Our Newsletter</h1>
+            <fore>
+                <input type="email" placeholder="Enter Email">
+                <button type="submit" class="botton_1">Suscribe</button>
+            </fore>
+            
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="./Jaytech Web Design _ Welcome_files/html logo.jpg">
+                <h3><html5markups< h3="">
+                <p>Donec urna nisi, lacinia in efficitur a, auctor eu leo. Pellentesque scelerisque id dolor sit amet ornare. Aliquam risus ante</p>
+            </html5markups<></h3></div>
+            <div class="box">
+                <img src="./Jaytech Web Design _ Welcome_files/css logo.jpg">
+                <h3>CSS Styling</h3>
+                <p>Mauris interdum vitae turpis at ullamcorper. Donec sed porta metus, sed vulputate lorem. Maecenas quis lectus blandit</p>
+            </div>
+            <div class="box">
+                <img src="./Jaytech Web Design _ Welcome_files/java logo.jpg">
+             <h3>Graphic Design</h3>
+            <p>Mauris interdum vitae turpis at ullamcorper. Donec sed porta metus, sed vulputate lorem. Maecenas quis lectus blandit</p>
+            </div>
+        </div>
+
+        <footer>
+            <p> JayTech Web Design. Copyright.© 2023</p>
+        </footer>
+    </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
